@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro");
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Crimson Pro";
+    font-size: 24px;
+}
+
+.text p, .text a {
+    margin: 0px;
+    padding: 10px;
+}
