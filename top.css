@@ -1,0 +1,92 @@
+.top-wrapper {
+    width: 1650px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 190px;
+}
+
+.top-wrapper > .search-bar {
+    width: 98%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    background-color: #222227;
+    border-radius: 5px;
+    color: #aaaaaa;
+}
+
+.top-wrapper > .search-bar > .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 700;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.top-wrapper > .search-bar > .icon i {
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.top-wrapper > .search-bar > .search-input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#search-input {
+    background-color: inherit;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+.sign-up-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sign-up-button {
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #55cc55;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    background-color: #448844;
+    color: white;
+}
+
+.log-in-button {
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #444449;
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+}
+
+.log-in-button:hover {
+    background-color: #55555a;
+    color: white;
+}
