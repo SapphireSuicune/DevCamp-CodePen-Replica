@@ -1,0 +1,91 @@
+.main {
+    height: 100%;
+}
+
+.right-column {
+    width: 180px;
+    height: 100%;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column > .logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.right-column > .logo-wrapper > .logo {
+    width: 85%;
+}
+
+.try-editor {
+    color: #aaaaaa;
+    display: flex;
+    justify-content: center;
+    font-size: 75%;
+}
+
+.start-coding-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.start-coding-wrapper > .start-coding-button {
+    width: 80%;
+    height: 50px;
+}
+
+.cl-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.colored-line {
+    height: 3px;
+    width: 80%;
+}
+
+.nav-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-links-wrapper > .nav-link-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links-wrapper > .nav-link-wrapper:hover {
+    background-color: #111111;
+}
+
+.nav-links-wrapper > .nav-link-wrapper > .nav-link {
+    width: 80%;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+
+.codepen-pro-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codepen-pro-text-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+}
+
+.codepen-pro-wrapper:hover {
+    background-color: #111111;
+}
+
+.codepen-pro-text {
+    font-weight: 600;
+    padding: 5px 0px;
+}
