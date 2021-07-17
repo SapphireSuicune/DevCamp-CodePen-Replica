@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda");
+
+.main-page-wrapper {
+    margin: 50px 250px;
+    height: 1000px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page-wrapper > .first-section-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-page-wrapper > .first-section-wrapper > .description-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.main-page-wrapper > .first-section-wrapper > .description-wrapper > .icon-wrapper {
+    height: 75px;
+    width: 75px;
+}
+
+.icon-wrapper > .icon {
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.main-page-wrapper > .first-section-wrapper > .description-wrapper > .big-text-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.big-text-wrapper {
+    padding-bottom: 15px;;
+}
+
+.big-text-wrapper > .big-text {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Monda";
+    line-height: 125%;
+}
+
+.small-text-wrapper {
+    padding-bottom: 25px;
+}
+
+.small-text-wrapper > .small-text {
+    color: #bbbbbb;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.signup-wrapper > .sign-up-button {
+    height: 2.75rem;
+    width: 150px;
+}
+
+.signup-wrapper > .sign-up-button:hover {
+    color: black;
+}
+
+.lang-exa-wrapper textarea {
+    background-color: #151515;
+    height: 125px;
+    width: 300px;
+}
+
+.label-wrapper > .icon-wrapper {
+    float: left;
+    padding-right: 10px;
+}

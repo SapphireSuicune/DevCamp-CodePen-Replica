@@ -2,23 +2,25 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="right-column.css">
+    <link rel="stylesheet" href="left-column.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodePen Replica</title>
+    <link rel="icon" href="logo.ico">
 </head>
 
 <body>
     <div class="main">
-        <div class="right-column">
+        <div class="left-column">
             <div class="logo-wrapper">
-                <img class="logo"
-                    src="https://blog.codepen.io/wp-content/uploads/2012/06/codepen-wordmark-display-inside-white@10x.png">
+                <a class="logo" href="index.html"><img
+                        src="https://blog.codepen.io/wp-content/uploads/2012/06/codepen-wordmark-display-inside-white@10x.png"></a>
             </div>
             <div style="height: 10px"></div>
             <div class="try-editor">
@@ -66,24 +68,80 @@
                 </div>
             </div>
         </div>
-        <div class="top-wrapper">
-            <div class="search-bar">
-                <div class="icon">
-                    <i class="fas fa-search"></i>
+        <div class="right-side-wrapper">
+            <div class="top-wrapper">
+                <div class="search-bar">
+                    <div class="icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="search-input-wrapper">
+                        <input type="text" id="search-input" placeholder="Search CodePen...">
+                    </div>
                 </div>
-                <div class="search-input-wrapper">
-                    <input type="text" id="search-input" placeholder="Search CodePen...">
+                <div class="sign-up-wrapper">
+                    <form action="signup.html">
+                        <button class="sign-up-button">Sign Up</button>
+                    </form>
+                </div>
+                <div class="log-in-wrapper">
+                    <form action="login.html">
+                        <button class="log-in-button">Log In</button>
+                    </form>
                 </div>
             </div>
-            <div class="sign-up-wrapper">
-                <form action="signup.html">
-                    <button class="sign-up-button">Sign Up</button>
-                </form>
-            </div>
-            <div class="log-in-wrapper">
-                <form action="login.html">
-                    <button class="log-in-button">Log In</button>
-                </form>
+            <div class="main-page-wrapper">
+                <div class="first-section-wrapper">
+                    <div class="description-wrapper">
+                        <div class="icon-wrapper">
+                            <div class="icon">
+                                <i class="fab fa-codepen"></i>
+                            </div>
+                        </div>
+                        <div class="big-text-wrapper">
+                            <div class="big-text">
+                                The best place to build, test, and discover front-end code.
+                            </div>
+                        </div>
+                        <div class="small-text-wrapper">
+                            <div class="small-text">
+                                CodePen is a <b style="color: white;">social development environment</b> for front-end
+                                designers and developers. Build and deploy a website, show off your work, build test
+                                cases
+                                to learn and debug, and find inspiration.
+                            </div>
+                        </div>
+                        <div class="signup-wrapper">
+                            <button class="sign-up-button">
+                                Sign Up for Free
+                            </button>
+                        </div>
+                    </div>
+                    <div class="programming-examples-wrapper">
+                        <div class="lang-exa-wrapper">
+                            <div class="label-wrapper">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-cog"></i>
+                                </div>
+                                <div class="label-text-wrapper">
+                                    <p>HTML</p>
+                                </div>
+                                <div class="caret-wrapper">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="html-exa">
+                                <span style="color: darkgoldenrod">&#60;div</span> <span
+                                    style="color: yellow">class</span><span style="color: white">=</span><span
+                                    style="color: green">"rect"</span><span
+                                    style="color: darkgoldenrod">&#62;&#60;/div&#62;</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-section-wrapper">
+                    
+                </div>
             </div>
         </div>
     </div>
