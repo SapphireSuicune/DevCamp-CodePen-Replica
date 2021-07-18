@@ -81,6 +81,11 @@ form {
     font-size: 24px;
     color: #aaaaaa;
     padding-left: 10px;
+    cursor: pointer;
+}
+
+.search-icon-wrapper:hover {
+    color: #dddddd;
 }
 
 .central-content-wrapper {
@@ -128,6 +133,11 @@ form {
     height: 60px;
     width: 250px;
     font-size: 30px;
+    cursor: pointer;
+}
+
+.green-button-wrapper > .green-button button:hover {
+    background-color: #50aa50;
 }
 
 .black-button-wrapper > .black-button button {
@@ -138,6 +148,11 @@ form {
     height: 60px;
     width: 190px;
     font-size: 30px;
+    cursor: pointer;
+}
+
+.black-button-wrapper > .black-button button:hover {
+    background-color: #222222;
 }
 
 .central-content-wrapper-parent {
